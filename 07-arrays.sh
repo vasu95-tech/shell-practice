@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 LEADERS=("Modi" "Puthin" "trump")
 echo "all leaders are ${LEADERS}[@]"
