@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #DATE=$(date +s)
-START_DATE=$(date +s%)
+START_DATE=$(date +%s)
 echo "script start time is = $DATE"
 sleep 10
 END_DATE=$(date +%s)
