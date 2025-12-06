@@ -1,6 +1,8 @@
 #!/bin/bash
 
-NUMBER=$1
+#NUMBER=$1
+echo "please enter the number"
+read NUMBER
 
 if [ $NUMBER -gt 10 ]; then
     echo " given number is greater than 10 "
