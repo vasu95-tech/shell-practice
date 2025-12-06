@@ -2,7 +2,7 @@
 
 #DATE=$(date +s)
 START_DATE=$(date +%s)
-echo "script start time is = START_DATE"
+echo "script start time is = $START_DATE"
 sleep 10
 END_DATE=$(date +%s)
 echo "script end time is = $END_DATE"
