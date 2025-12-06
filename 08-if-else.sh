@@ -1,10 +1,9 @@
 #!/bin/bash
 
-#echo "please enter the number"
-NUMBER=$1 
-if [ $NUMBER%2 -ne 0 ] then
-     echo " given number is even "
+NUMBER=$1
+if[ $NUMBER -gt 10 ] then
+    echo " given number is greater than or equal to 10 "
 else
-      echo " given number is odd "
+    echo " given number is lessthan 10 "
 fi
 
